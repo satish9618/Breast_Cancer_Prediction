@@ -18,8 +18,17 @@ This project aims to predict breast cancer diagnosis using a Logistic Regression
 ## Model Training & Evaluation 🧠
 - **Regularization:**  
   Used L1 regularization (Lasso) to reduce overfitting and enhance model robustness.
-- **Workflow Tracking:**  
-  The entire training pipeline—parameters, metrics, and artifacts—was tracked using MLflow for reproducibility and easy experiment management.
+
+---
+
+## Experiment Tracking with MLflow 🚀
+
+The entire machine learning workflow is tracked using **MLflow** for better reproducibility and experiment management. This includes:  
+- Logging parameters, metrics, and artifacts  
+- Comparing different model runs and tuning experiments  
+- Ensuring a clear audit trail of model development steps  
+
+Using MLflow has helped maintain transparency and efficiency throughout the model building process.
 
 ---
 
@@ -34,21 +43,6 @@ This project aims to predict breast cancer diagnosis using a Logistic Regression
 | **Accuracy** |                  |                     | **0.92**         |
 | Macro Avg.   | 0.94             | 0.90                | 0.92 (avg)       |
 | Weighted Avg.| 0.93             | 0.92                | 0.92 (avg)       |
-
----
-
-## How to Run 🏃‍♂️
-1. Clone the repo  
-2. Install required packages (e.g., scikit-learn, pandas, mlflow)  
-3. Run the main training script to preprocess data, train, and evaluate the model.  
-4. Use MLflow UI to explore experiment results.
-
----
-
-## Future Work 🔮
-- Experiment with other classifiers and ensemble methods  
-- Fine-tune hyperparameters with grid search  
-- Deploy the model using a web framework for real-time predictions  
 
 ---
 
