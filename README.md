@@ -1,4 +1,4 @@
-# Breast Cancer Prediction using Logistic Regression (L1 Reguralisation)🧬
+# Breast Cancer Prediction using Logistic Regression (L1 Reguralisation) 🧬
 
 ## Project Overview
 This project aims to predict breast cancer diagnosis using a Logistic Regression model. The focus was on building a robust, well-regularized model to avoid overfitting and improve generalization.
